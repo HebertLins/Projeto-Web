@@ -1,0 +1,33 @@
+h2{
+    background-color: rgb(0, 202, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px; color: rgba(0, 0, 0, 0.795);
+    border: 5px;
+    text-align: center;
+}
+
+p{
+    background-color: rgb(71, 121, 168);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px; color: rgba(32, 7, 122, 0.795);
+    border: 5px;
+}
+
+li{
+    background-color: rgb(166, 175, 172);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px; color: rgba(0, 0, 0, 0.795);
+    border: 5px;
+}
+
+div{
+    background-color: rgb(71, 121, 168);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px; color: rgba(0, 0, 0, 0.795);
+    border: 5px;
+}
+
+body{
+    width: 650px;
+    margin: auto;
+}
