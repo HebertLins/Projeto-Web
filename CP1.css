@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    text-align: justify;
+    color: blue;
+}
+
+section{
+    width: 33%;
+    display: inline-block;
+    background-color: rgb(159, 247, 171);
+}
+
+header{
+    width: 1200px;
+    text-align: center;
+    display: inline;
+}
+
+h2{
+font-size: 35px;
+color: red;
+text-align: center;
+}
+
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+    background-color: rgb(178, 178, 197);
+    text-decoration: none;
+}
+
+
+
+
+img{
+    width: 400px;
+    height: 390px;
+    margin: 0 auto;
+}
+
+
+li{
+    background-color: rgb(145, 248, 205);
+    padding-right: 300px;
+    text-decoration: none;
+}
