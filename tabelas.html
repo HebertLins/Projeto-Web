@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 457px;
+            margin:auto;
+            border: solid 1px;
+        }
+        .fundoazul{
+            background-color: blue;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        tbody > tr > td{
+            border-left: solid 1px red;
+        }
+        tfoot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="fundoazul">
+                <td>Nome</td>
+                <td>Valor</td>
+                <td>Dta_Pagamento</td>
+            </tr>   
+        </thead>
+        <tbody>
+        <tr>
+            <td>Hbert</td>
+            <td>R$10,00</td>
+            <td>22/10</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>R$30,00</td>
+            <td>23/09</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">xxx</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
