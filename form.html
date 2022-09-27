@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando form</title>
+    
+<style>
+
+    body{
+        background-color: rgb(168, 168, 168);
+        padding-left: 45%;
+        padding-top: 10%;
+    }
+    .lgn{
+        background-color: yellow;
+        color: red;
+    }
+    .btn{
+        border: solid 1px black;
+    }
+    input{
+        
+    }
+
+</style>   
+
+</head>
+<body>
+    <form method="post" action="cadastro.php ">
+        <label for="idLogin"> Login: </label>
+        <input type="text" id="idLogin" name="idLogin" class="lgn"> <br>
+        <label for="password"> Password: </label>
+        <input type="password" id="password" name=password" class="lgn"> <br>
+        <label for="idade">Idade: </label>
+        <input type="number" id="idade" name="idade" class="lgn"><br>
+       
+        <label for="IdSexo">Sexo:</label>
+        <input type="radio" id="idSexoM" name="idSexo" class="btn"> Masculino 
+        <input type="radio" id="idSexoF" name="idSexo" class="btn"> Feminino <br>
+       
+        <label for="IdProgramação"> Linguagens: </label> <br>
+        <input type="checkbox" id="IdJS"> JavaScript <br>
+        <input type="checkbox" id="IdPython"> Python <br>
+        <input type="submit"  value="enviar"  id="BTNenviar">       
+    </form>
+</body>
+</html>
