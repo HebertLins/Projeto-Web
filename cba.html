@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: grey;
+            text-align: justify;
+        }
+        article{
+            height: 100vh;
+            border: 1px solid black;
+        }
+
+        @media screen and (max-width: 480px){
+        
+            .bloco1,.bloco2,.bloco3,.bloco4{
+            width: 100%;
+            background-color: rgb(145, 14, 14);
+            padding: 5px;
+            height: auto;
+        }
+
+        }
+
+        @media screen and (min-width: 481px) and (max-width: 768px){
+            .bloco1,.bloco2,.bloco3,.bloco4{
+            box-sizing: border-box;
+            width: 50%;
+            background-color: rgb(237, 255, 77);
+            float: left ;
+            padding: 5px;
+            height: auto;
+            }
+        }
+
+        @media screen and (min-width: 769px) and (max-width: 1270px){
+            .bloco1,.bloco2,.bloco3{
+                box-sizing: border-box;
+                float: left;
+                width: 33.33%;
+                background-color: rgb(4, 97, 4);
+                padding: 5px;
+                height: auto;
+
+            }
+
+            .bloco4{
+                clear: both;
+                width: 100%;
+                padding: 5px;
+                height: auto;
+            }
+        }
+
+        @media screen and (min-width: 1271px){
+            .bloco1,.bloco2,.bloco3,.bloco4{
+                box-sizing: border-box;
+                width: 25%;
+                background-color: blue;
+                float: left;
+                padding: 5px;
+                height: auto;
+            }
+        }
+    </style>
+
+<body>
+    <section>
+        <article class="bloco1">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, 
+                nostrum minus explicabo veritatis id magni maiores earum,
+                cumque voluptatem ut veniam quod reprehenderit officia sit alias nulla delectus cum sunt asperiores. 
+                Dignissimos, sed iste consequatur vitae velit error delectus! Molestias perferendis adipisci 
+                molestiae rerum aspernatur sunt magni velit itaque officiis.
+            </p>
+            bloco #1
+        </article>
+        <article class="bloco2">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, 
+                nostrum minus explicabo veritatis id magni maiores earum,
+                cumque voluptatem ut veniam quod reprehenderit officia sit alias nulla delectus cum sunt asperiores. 
+                Dignissimos, sed iste consequatur vitae velit error delectus! Molestias perferendis adipisci 
+                molestiae rerum aspernatur sunt magni velit itaque officiis.
+            </p>
+        bloco #2
+        </article>
+        <article class="bloco3">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, 
+                nostrum minus explicabo veritatis id magni maiores earum,
+                cumque voluptatem ut veniam quod reprehenderit officia sit alias nulla delectus cum sunt asperiores. 
+                Dignissimos, sed iste consequatur vitae velit error delectus! Molestias perferendis adipisci 
+                molestiae rerum aspernatur sunt magni velit itaque officiis.
+            </p>
+        bloco #3
+        </article>
+        <article class="bloco3">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, 
+                nostrum minus explicabo veritatis id magni maiores earum,
+                cumque voluptatem ut veniam quod reprehenderit officia sit alias nulla delectus cum sunt asperiores. 
+                Dignissimos, sed iste consequatur vitae velit error delectus! Molestias perferendis adipisci 
+                molestiae rerum aspernatur sunt magni velit itaque officiis.
+            </p>
+        bloco #4
+        </article>
+    </section>
+</body>
+</html>
